@@ -12,5 +12,5 @@ public class Main {
 
         int resultadoAjustado = conversor.converter(celsius, 2, true);
         System.out.println(celsius + "°C em Fahrenheit com ajuste de 2 e arredondamento: " + resultadoAjustado);
-    }
+}
 }

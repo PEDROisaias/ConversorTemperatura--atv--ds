@@ -11,5 +11,5 @@ public class ConversorTemperatura {
     public int converter(double celsius, double ajuste, boolean arredondar) {
         double resultado = (celsius * 9 / 5) + 32 + ajuste;
         return arredondar ? (int) Math.round(resultado) : (int) resultado;
-    }
+};
 }
